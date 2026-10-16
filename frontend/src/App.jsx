@@ -6,7 +6,7 @@ function App() {
   const [newTitle, setNewTitle] = useState('');
 
  
-  const API_URL = 'http://localhost/todo-liste/index.php';
+  const API_URL = 'http://localhost/todo-liste/backend/index.php';
 
 
   const fetchTaches = async () => {
