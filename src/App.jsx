@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [taches, setTaches] = useState([]);
   const [newTitle, setNewTitle] = useState('');
 
  
-  const API_URL = 'http://localhost/todo-list/projet-compler/index.php';
+  const API_URL = 'http://localhost/todo-liste/index.php';
 
 
   const fetchTaches = async () => {
